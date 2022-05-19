@@ -2,6 +2,7 @@ provider "aws" {
   region = "ca-central-1"
 }
 
+
 resource "random_pet" "petname" {
   length    = 5
   separator = "-"
